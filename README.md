@@ -38,7 +38,7 @@ The UI components (e.g., Temperature, Wind, Humidity, UvIndex, etc.) are designe
 
 ## Installation
 
-- **Clone the repository:** git clone https://github.com/your-username/weather-app.git
+- **Clone the repository:** git clone https://github.com/sahiAlam/weather-app.git
 - **Navigate into the project folder:** cd weather-app
 - **Install dependencies:** npm install
 - **Create a .env file in the root directory and add your OpenWeatherMap API key:** OPENWEATHERMAP_API_KEY=your_api_key
