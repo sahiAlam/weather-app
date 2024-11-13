@@ -36,6 +36,17 @@ The weather data (such as temperature, air pollution, and wind speed) is fetched
 4. UI Components:
 The UI components (e.g., Temperature, Wind, Humidity, UvIndex, etc.) are designed to display the relevant weather data. These components are reusable, and data is passed down through props.
 
+## Installation
+
+- **Clone the repository:** git clone https://github.com/your-username/weather-app.git
+- **Navigate into the project folder:** cd weather-app
+- **Install dependencies:** npm install
+- **Create a .env file in the root directory and add your OpenWeatherMap API key:** OPENWEATHERMAP_API_KEY=your_api_key
+
+## File & Folder Structure
+![image](https://github.com/user-attachments/assets/21bd419f-3a9f-4207-b624-22a918321f29)
+
+
 
 ## Some Screenshot
 
