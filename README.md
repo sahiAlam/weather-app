@@ -1,3 +1,43 @@
+# Weather Application
+### Check it out: [https://weather.vercel.app/](https://weather-cabbg9a6y-sahi-s-projects.vercel.app/)
+
+## Overview
+
+This project is a weather application that fetches and displays weather data such as temperature, air pollution, UV index, wind speed, and more, for a specific city or geographical coordinates. It uses data from OpenWeatherMap and OpenMeteo APIs and integrates a map using React-Leaflet with the following features. 
+
+
+- **Dynamic Weather Data:** Get real-time weather data like temperature, wind speed, humidity, air pollution, UV index, and other details.
+- **Map Integration:** The app displays a map of the selected city or coordinates using React-Leaflet.
+- **5-Day Forecast / Hourly Forecast:** Shows a 5-day and hourly weather forecast with temperature and other parameters.
+- **Interactive UI:** Users can click on large cities to view detailed weather information.
+- **Search Any Cities:** Search weather conditions for any city you want.
+
+
+## Technologies Used 
+
+- **Next.js:** A React framework used to build the application, including server-side rendering and static site generation.
+- **React-Leaflet:** A React wrapper for Leaflet.js, used to display maps.
+- **Axios:** Promise-based HTTP client for making requests to APIs.
+- **TailwindCSS:** Utility-first CSS framework for building responsive UIs.
+- **OpenWeatherMap API:** API for fetching weather data.
+
+
+## Demo/ Walkthrough
+
+1. Getting Started:
+When you first load the app, you’ll see a search bar or a list of cities to choose from. When a city is selected, the app will make API calls to fetch the weather data and display it dynamically.
+
+2. Map and City Coordinates:
+Once a city is selected, the Mapbox component will update to center the map on the city’s coordinates, and it will animate to that location using map.flyTo(). This provides a smooth user experience.
+
+3. Fetching Data:
+The weather data (such as temperature, air pollution, and wind speed) is fetched from the OpenWeatherMap API using Axios. The data is displayed in individual components that update whenever new data is received.
+
+4. UI Components:
+The UI components (e.g., Temperature, Wind, Humidity, UvIndex, etc.) are designed to display the relevant weather data. These components are reusable, and data is passed down through props.
+
+
+## Some Screenshot
 
 ![image](https://github.com/user-attachments/assets/f8411e8f-6d46-43af-b726-149e4e4a6a95)
 
